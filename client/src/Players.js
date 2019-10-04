@@ -1,9 +1,8 @@
 import React from "react";
+import useLocalStorage from "./hooks/useLocalStorage"
 
-export default function PLayers(props) {
+export default function Players(props) {
   const { players } = props;
-
-
 
   return (
     <div>
@@ -17,3 +16,4 @@ export default function PLayers(props) {
     </div>
   );
 }
+
